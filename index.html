@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seanmic | Home</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fffdf2;
+    color: #66552c;
+}
+
+nav {
+    background: #fff9d9;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px #f0e4ad;
+}
+
+nav a {
+    text-decoration: none;
+    color: #a88a26;
+    margin: 0 18px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e5bd45;
+}
+
+header {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 25px;
+    background: linear-gradient(135deg, #fff1ad, #fffdf2);
+}
+
+.profile {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 5px 20px #e8d58b;
+    animation: float 3s infinite ease-in-out;
+}
+
+@keyframes float {
+    0%, 100% {transform: translateY(0);}
+    50% {transform: translateY(-13px);}
+}
+
+h1 {
+    color: #a88620;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.intro {
+    max-width: 600px;
+    color: #8d7844;
+    margin-top: 15px;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 22px;
+    background: #fff1ad;
+    color: #92772e;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">HOME</a>
+    <a href="aboutt.html">ABOUT</a>
+</nav>
+
+<header>
+    <img src="me.jpeg" class="profile" alt="Seanmic's Profile">
+
+    <h1>Hello, I'm Seanmic Morales! </h1>
+
+    <p class="intro">
+        Hi! I'm Seanmic Morales. Welcome to my personal website!
+        This website is all about me, my interests, and some of
+        the things that make me happy. Here, you can find my
+        favorite pictures, videos, and audio that represent
+        a little part of who I am. I created this page to share
+        some things about myself and let you discover more
+        about me. Feel free to explore and enjoy!
+    </p>
+</header>
+
+
+</body>
+</html>
